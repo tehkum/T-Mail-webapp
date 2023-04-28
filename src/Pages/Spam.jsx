@@ -5,7 +5,7 @@ export default function SpamPage() {
   const { state, dispatch } = useContext(useMailer);
 
   return (
-    <div className="spam">
+    <div className="trash">
       <h2 style={{ textAlign: "center" }}>Spam Mails</h2>
       <div className="mainCard">
         {!state.spamData.length && <h3>Spam is empty...</h3>}
